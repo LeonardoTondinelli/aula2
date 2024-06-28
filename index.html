@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Códigos</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Dados pessoais para cadastro</th>
+            <th>Data de nascimento e CPF</th>
+        </tr>
+        <tr>
+            <td>Leonardo Tondinelli</td>
+            <td>06/04/1999</td>
+        </tr>
+        <tr>
+            <td>Cornélio Procópio</td>
+            <td>04940567974</td>
+        </tr>
+    </table>
+
+    <form action="/enviar-dados" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
+        
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+
+        <label for="password">senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+        <label for="Gênero">Gênero:</label>
+        <input type="Gênero" id="Gênero" name="Gênero" placeholder="Digite seu gênero">
+
+        <input type="submit" value="Enviar">    
+
+    </form>
+    
+
+
+</body>
+</html>
+
+
